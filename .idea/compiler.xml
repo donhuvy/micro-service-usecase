@@ -14,7 +14,7 @@
         <module name="billing-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="19">
       <module name="billing-service" target="19" />
       <module name="customer-service" target="19" />
       <module name="discovery-service" target="19" />

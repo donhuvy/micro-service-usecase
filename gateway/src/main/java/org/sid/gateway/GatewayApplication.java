@@ -16,15 +16,16 @@ public class GatewayApplication {
         SpringApplication.run(GatewayApplication.class, args);
     }
 
-    public RouteLocator routes(RouteLocatorBuilder builder){
+    public RouteLocator routes(RouteLocatorBuilder builder) {
         return builder.routes()
-                .route(r->r.path("/customers/**").uri("lb://CUSTOMER-SERVICE"))
-                .route(r->r.path("/products/**").uri("lb://INVENTORY-SERVICE"))
+                .route(r -> r.path("/customers/**").uri("lb://CUSTOMER-SERVICE"))
+                .route(r -> r.path("/products/**").uri("lb://INVENTORY-SERVICE"))
                 .build();
     }
+
     @Bean
-    public DiscoveryClientRouteDefinitionLocator dynamicRoutes(ReactiveDiscoveryClient rdc, DiscoveryLocatorProperties dlp){
-        return new DiscoveryClientRouteDefinitionLocator(rdc,dlp);
+    public DiscoveryClientRouteDefinitionLocator dynamicRoutes(ReactiveDiscoveryClient rdc, DiscoveryLocatorProperties dlp) {
+        return new DiscoveryClientRouteDefinitionLocator(rdc, dlp);
     }
 
 }

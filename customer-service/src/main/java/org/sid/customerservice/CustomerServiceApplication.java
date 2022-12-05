@@ -18,7 +18,7 @@ public class CustomerServiceApplication {
     }
 
     @Bean
-    public CommandLineRunner commandLineRunner(CustomerRepository customerRepository, RepositoryRestConfiguration restConfiguration){
+    public CommandLineRunner commandLineRunner(CustomerRepository customerRepository, RepositoryRestConfiguration restConfiguration) {
         return args -> {
             restConfiguration.exposeIdsFor(Customer.class);
             customerRepository.saveAll(
@@ -27,7 +27,9 @@ public class CustomerServiceApplication {
                             Customer.builder().name("Imane").email("imane@gmail.com").build()
                     )
             );
-            customerRepository.findAll().forEach(c->{System.out.println(c);});
+            customerRepository.findAll().forEach(c -> {
+                System.out.println(c);
+            });
         };
     }
 

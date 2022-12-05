@@ -16,8 +16,9 @@ public class InventoryServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(InventoryServiceApplication.class, args);
     }
+
     @Bean
-    CommandLineRunner start(ProductRepository productRepository, RepositoryRestConfiguration restConfiguration){
+    CommandLineRunner start(ProductRepository productRepository, RepositoryRestConfiguration restConfiguration) {
         return args -> {
             restConfiguration.exposeIdsFor(Product.class);
             productRepository.saveAll(

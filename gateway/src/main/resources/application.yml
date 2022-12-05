@@ -1,11 +1,11 @@
 server:
-  port: 9999
+    port: 9999
 spring:
-  application:
-    name: gateway-service
-  cloud:
-    discovery:
-      enabled: true
+    application:
+        name: gateway-service
+    cloud:
+        discovery:
+            enabled: true
 #    gateway:
 #      routes:
 #        - id: r1

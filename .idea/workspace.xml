@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6baa94f0-b9e8-45cf-a716-cd7bc7dbc37f" name="Changes" comment="Remove unnecessary files." />
+    <list default="true" id="6baa94f0-b9e8-45cf-a716-cd7bc7dbc37f" name="Changes" comment="fix error, but not work.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +19,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -113,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670225723461</updated>
-      <workItem from="1670225724647" duration="362000" />
+      <workItem from="1670225724647" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="Remove unnecessary files.">
       <created>1670225853634</created>
@@ -122,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670225853634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Polish">
+      <created>1670226134438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670226134438</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix error, but not work.">
+      <created>1670227211019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670227211019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,8 +161,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Remove unnecessary files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary files." />
+    <MESSAGE value="Polish" />
+    <MESSAGE value="fix error, but not work." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix error, but not work." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
